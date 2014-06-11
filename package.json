@@ -1,6 +1,6 @@
 {
   "name": "valid-media-queries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check for the validity of a CSS media query.",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "_id": "valid-media-queries@0.0.1",
-  "_from": "valid-media-queries@0.0.1",
+  "_id": "valid-media-queries@0.0.2",
+  "_from": "valid-media-queries@0.0.2",
   "bugs": {
     "url": "https://github.com/crm416/valid-media-queries/issues"
   },
