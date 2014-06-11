@@ -1,0 +1,38 @@
+{
+  "name": "valid-media-queries",
+  "version": "0.0.1",
+  "description": "Check for the validity of a CSS media query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "lodash.every": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "css",
+    "valid",
+    "media",
+    "query"
+  ],
+  "author": {
+    "name": "Charles Marsh"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_id": "valid-media-queries@0.0.1",
+  "_from": "valid-media-queries@0.0.1",
+  "bugs": {
+    "url": "https://github.com/crm416/valid-media-queries/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglou/valid-media-queries.git"
+  }
+}
