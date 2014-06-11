@@ -9,7 +9,7 @@ npm install valid-media-queries
 ## API
 
 ```js
-var isValidMediaQuery = require('validMediaQuery');
+var isValidMediaQuery = require('valid-media-queries');
 
 isValidMediaQuery('@media tv and (monochrome), only screen'); // => true
 isValidMediaQuery('@media not thing  and (max-height : 50px)'); // => false
