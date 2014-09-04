@@ -1,5 +1,3 @@
-var every = require('lodash.every');
-
 function isValidRatio(ratio) {
     var re = /\d+\/\d+/;
     return !!ratio.match(re);
@@ -180,7 +178,7 @@ function isValidMediaQuery(query) {
     var queryTerms = query.split(andSplitter);
     return (isValidQualifiedMediaType(queryTerms[0]) ||
         isValidExpression(queryTerms[0])) &&
-        every(queryTerms.slice(1), isValidExpression);
+        queryTerms.slice(1).every(isValidExpression);
 }
 
 function isValidMediaQueryList(mediaQuery) {
@@ -193,7 +191,7 @@ function isValidMediaQueryList(mediaQuery) {
     var commaSplitter = /\s*,\s*/;
     var queryList = mediaQuery.substring(7, mediaQuery.length)
                               .split(commaSplitter);
-    return every(queryList, isValidMediaQuery);
+    return queryList.every(isValidMediaQuery);
 }
 
 module.exports = isValidMediaQueryList

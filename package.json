@@ -6,9 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "lodash.every": "^2.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^1.20.1"
   },
