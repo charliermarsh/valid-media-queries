@@ -1,6 +1,6 @@
 {
   "name": "valid-media-queries",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check for the validity of a CSS media query.",
   "main": "index.js",
   "scripts": {
